@@ -47,14 +47,6 @@ public class Folder {
         this.title = title;
     }
 
-    public List getFiles() {
-        return files;
-    }
-
-    public void setFiles(ArrayList<File> files) {
-        this.files = files;
-    }
-
     public User getUser() {
         return user;
     }

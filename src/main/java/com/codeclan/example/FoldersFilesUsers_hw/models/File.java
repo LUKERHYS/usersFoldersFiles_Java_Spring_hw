@@ -51,25 +51,11 @@ public class File {
         this.name = name;
     }
 
-    public ArrayList<String> getExtension() {
-        return extension;
-    }
-
-
-
     public int getSize() {
         return size;
     }
 
     public void setSize(int size) {
         this.size = size;
-    }
-
-    public Folder getFolder() {
-        return folder;
-    }
-
-    public void setFolder(Folder folder) {
-        this.folder = folder;
     }
 }
